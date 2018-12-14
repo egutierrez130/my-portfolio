@@ -18,16 +18,202 @@
         <span class="sr-only">Toggle Navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+        </button>
         <a href="" class="navbar-brand">
-          <img src="" alt="">
+          <img src="img/portfolio-logo.png" alt="">
         </a>
-      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active">
+          <a href="">Home
+            <span class="sr-only">Home Page</span>
+          </a>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+        </li>
+      </ul>
     </div>
   </div>
 </nav>
-<!-- JavaScript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+<!-- Navbar section ends -->
+
+<!-- Carousel section -->
+
+<div class="container-fluid wrap">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="myCarousel" data-slide-to="0"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item main_img1 active">
+					<div class="carousel-caption">
+						<img src="" alt="" class="img-responsive center-block main_logo">
+					</div>
+				</div>
+				<div class="item main_img2">
+					<div class="carousel-caption">
+						<h1>Eat Local</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis enim repellendus eos odit cumque suscipit debitis voluptate eligendi, ipsam, laboriosam.</p>
+						<a href="" class="btn btn-large btn-primary" role="button">Learn More</a>
+					</div>
+				</div>
+			</div>
+			<a href="#myCarousel" class="left carousel-control" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a href="#myCarousel" class="right carousel-control" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+	<!-- Carousel section ends -->
+
+
+<!-- Projects section -->
+
+<div id="projects">
+		<div class="container">
+			<div class="row text-center">
+					<h1>Projects</h1>
+					<div class="navbar">
+						<ul class="nav nav-tabs nav-justified">
+							<li>
+								<a href="#appetizer" data-toggle="tab">APPETIZER</a>
+							</li>
+							<li>
+								<a href="#lunch" data-toggle="tab">LUNCH</a>
+							</li>
+							<li>
+								<a href="#dinner" data-toggle="tab">DINNER</a>
+							</li>
+							<li>
+								<a href="#dessert" data-toggle="tab">DESSERT</a>
+							</li>
+						</ul>
+						<div class="tab-content">
+							<div id="appetizer" class="tab-pane fade active in">
+								<div class="col-sm-3 col-xs-6 food">
+									<img src="img/dip.jpg" alt="Dip" class="img-responsive img-thumbnail">
+									<h3>Appetizer 1</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam minima rem velit, debitis, ab atque.</p>
+								</div>
+								<div class="col-sm-3 col-xs-6 food">
+									<img src="img/eggplant.jpg" alt="Eggplant" class="img-responsive img-thumbnail">
+									<h3>Appetizer 2</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore rerum, minus quod. Ratione, aperiam, esse.</p>
+								</div>
+								<div class="col-sm-3 col-xs-6 food">
+									<img src="img/meat.jpg" alt="Meat Rolls" class="img-responsive img-thumbnail">
+									<h3>Appetizer 3</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas quia itaque, deserunt, laboriosam facere maiores.</p>
+								</div>
+								<div class="col-sm-3 col-xs-6 food">
+									<img src="img/bruschetta.jpg" alt="Bruschetta" class="img-responsive img-thumbnail">
+									<h3>Appetizer 4</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus assumenda molestiae rem, iusto quibusdam aperiam?</p>
+								</div>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+	<!-- Projects section ends -->
+
+	<!-- Contact section starts -->
+<div id="contact">
+	<div class="contatiner-fluid">
+		<div class="col-sm-8 col-sm-offset-2">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1 class="text-uppercase">contact me</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<p>Interested in doing a project together? Please fill out my contact form below.</p>
+				</div>
+			</div>
+			<div class="row contact_bottom">
+				<div class="col-sm-6">
+					<div class="col-sm-12 contact_form">
+						<form action="">
+							<div class="form-group">
+								<label for="Name">Name<span>*</span></label>
+								<input type="text" class="form-control" id="inputName" placeholder="Your Name">
+							</div>
+							<div class="form-group">
+								<label for="Email">Email<span>*</span></label><input type="text" class="form-control" id="inputName" placeholder="Your Email"></div>
+							<div class="form-group">
+								<label for="Subject">Subject<span>*</span></label><input type="text" class="form-control" id="inputName" placeholder="Subject"></div>
+							<div class="form-group">
+								<label for="Message">Message</label>
+								<textarea cols="30" rows="3" class="form-control"></textarea>
+							</div>
+							<div class="checkbox">
+								<label for="">
+									<input type="checkbox">I'm not a robot!</input>
+								</label>
+								<button type="submit" class="btn btn-default center-block">Send Message</button>
+								<p class="text-center" id="contact_fine_print">All Field marked <span>*</span> are mandatory</p>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="col-sm-5">
+					<address><strong class="text-uppercase">Work Site</strong><br>
+						123 Fulton St<br>
+						Fresno, Ca 93728<br>
+						P: (559)269-4908
+						</address>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.6040610940163!2d-119.7879656847742!3d36.73206927923157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809460a5cfdf4b6b%3A0xab092ce50c284a0a!2sBitwise+Industries!5e0!3m2!1sen!2sus!4v1544157774738" width="500" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+<!-- Contact section ends -->
+
+	<!-- javascript	 -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<script>
+	      $(function() {
+	          $('a[href*=#]:not([href=#])').click(function() {
+	              if( $(this).attr("href") =="#myCarousel"
+	                  || $(this).attr("href")=="#appetizer"
+	                  || $(this).attr("href")=="#lunch"
+	                  || $(this).attr("href")=="#dinner"
+	                  || $(this).attr("href")=="#dessert") return; //These are the exceptions
+	              if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	                  var target = $(this.hash);
+	                  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	                  if (target.length) {
+	                      $('html,body').animate({
+	                          scrollTop: target.offset().top
+	                      }, 5000);
+	                      return false;
+	                  }
+	              }
+	          });
+	      });
+	  </script>
+
+</body>
 </html>

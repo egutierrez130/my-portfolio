@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Playfair+Display|Raleway');
+
+/* Global */
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+/* Nav section */
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: rgba(17, 17, 17, .5);
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fcfcfc;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus {
+  color: #f8512f;
+  background-color: rgba(17, 17, 17, .2);
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.nav li a:hover {
+  background-color:  transparent;
+}
+
+nav.navbar {
+  position: absolute;
+  top: 100;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.navbar-brand > img {
+  margin-top: -83px;
+  height: 300px;
+  /* background-color: #000000; */
+}
+
+/* Carousel section */
+
+/*100vh = It will take up the whole screen no matter how much content it has  */
+.wrap {
+  min-height: 100vh;
+}
+
+.carousel {
+  margin-bottom: 60px;
+}
+
+.carousel-caption {
+  z-index: 10;
+  padding-bottom: 60px;
+}
+
+/* use percentages(%) when applying width */
+.carousel-inner .item {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+.main_img1 {
+  background-image: url('../img/slider-background-gears.jpg');
+}
+
+.main_img2 {
+  background-image: url('../img/SM-slider-background.jpg');
+}
+
+.main_logo {
+  max-height: 300px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #f8512f;
+  border-color: transparent;
+}
+
+.btn-primary:hover {
+  background-color: #d34326;
+  border-color: transparent;
+}
+
+.carousel-caption p {
+  color: #f7f7f7;
+  font-size: 16px;
+}
+
+
+/* Projects section */
+#projects, #contact {
+  min-height: 700px;
+}
+
+#projects {
+  background-image: url('../img/hardwood.png');
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+#projects h1 {
+  color: #fff;
+  font-family: 'Lobster', cursive;
+  font-size: 6em;
+}
+
+#projects h3 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+#projects a {
+  color: #f8512a;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#projects p {
+  text-align: justify;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.food {
+  background-color: #fff;
+  padding: 20px 0px;
+}
+
+#projects .nav li a:hover {
+  background-color: rgba(255, 255, 255, 0.1)
+  border-color: transparent;
+}
+
+#projects .nav-justified li a {
+  margin-bottom: -5px;
+}
+
+#projects .nav-tabs li a {
+  border: none;
+}
+
+/* Contact section */
+
+.contact_form {
+  background-color: #3696CC;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.contact_form form {
+  padding: 5% 0;
+}
+
+.contact_form span {
+  color: #ff0d06;
+}
+
+#contact {
+  background-color: #758C99;
+}
+
+#contact h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 4em;
+}
+
+#contact p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #fff;
+  font-size: 2em;
+}
+
+#contact_fine_print {
+  font-size: 12px !important;
+  text-align: center;
+}
+
+address {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.contact_bottom {
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
