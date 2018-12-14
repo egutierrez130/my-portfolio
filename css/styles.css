@@ -42,7 +42,7 @@ nav.navbar {
 
 .navbar-brand > img {
   margin-top: -83px;
-  height: 300px;
+  height: 300px
   /* background-color: #000000; */
 }
 
@@ -95,7 +95,7 @@ nav.navbar {
 
 .carousel-caption p {
   color: #f7f7f7;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 
@@ -109,7 +109,7 @@ nav.navbar {
   background-size: cover;
   background-attachment: fixed;
   padding-top: 40px;
-  padding-bottom: 70px;
+  padding-bottom: 0px;
 }
 
 #projects h1 {
@@ -118,42 +118,9 @@ nav.navbar {
   font-size: 6em;
 }
 
-#projects h3 {
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 2em;
-}
-
-#projects a {
-  color: #f8512a;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-#projects p {
-  text-align: justify;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 300;
-}
-
-.food {
-  background-color: #fff;
-  padding: 20px 0px;
-}
-
-#projects .nav li a:hover {
-  background-color: rgba(255, 255, 255, 0.1)
-  border-color: transparent;
-}
-
-#projects .nav-justified li a {
-  margin-bottom: -5px;
-}
-
-#projects .nav-tabs li a {
-  border: none;
+#projects .mb-4 {
+  margin-bottom: 150px;
+  margin-top: 150px;
 }
 
 /* Contact section */
